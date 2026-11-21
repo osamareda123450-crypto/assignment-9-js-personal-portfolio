@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أحمد حسن | مطور واجهات أمامية</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- شريط التنقل -->
+  <nav class="navbar">
+    <div class="container nav-content">
+      <a href="#hero" class="logo">
+        <i class="fa-solid fa-code"></i> أحمد حسن
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="القائمة">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="active">الرئيسية</a></li>
+        <li><a href="#about">عني</a></li>
+        <li><a href="#skills">المهارات</a></li>
+        <li><a href="#portfolio">الأعمال</a></li>
+        <li><a href="#experience">الخبرة</a></li>
+        <li><a href="#testimonials">التوصيات</a></li>
+        <li><a href="#contact">تواصل</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- 1. الواجهة الرئيسية -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <div class="status-badge">
+            <span class="dot"></span> متاح للشغل الحر
+          </div>
+          <p class="greeting">مرحباً، أنا 👋</p>
+          <h1>أحمد حسن</h1>
+          <div class="job-title">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Frontend Developer</span>
+          </div>
+          <p class="hero-desc">
+            بحول أفكارك لـ <span>تجارب رقمية مميزة</span>. متخصص في بناء مواقع وتطبيقات ويب حديثة بأحدث التقنيات.
+          </p>
+          <div class="hero-actions">
+            <a href="#portfolio" class="btn btn-primary">
+              استكشف أعمالي <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              تواصل معي <i class="fa-regular fa-paper-plane"></i>
+            </a>
+          </div>
+          <div class="tech-pills">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Tailwind</span>
+            <span>Next.js</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-card">
+            <i class="fa-solid fa-user-astronaut"></i>
+            <p>Frontend Engineer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. قسم عني -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">من أنا</span>
+          <h2>عن <span>أحمد حسن</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-info">
+            <h3>بحب أحول الأفكار <span>لواقع رقمي</span></h3>
+            <p>مطور واجهات أمامية بخبرة +8 سنوات في بناء تطبيقات ويب حديثة وتصميم تجارب مستخدم استثنائية.</p>
+            <p>بشتغل بأحدث التقنيات زي React و Next.js و TypeScript عشان أقدم حلول عالية الجودة وتعدي التوقعات.</p>
+
+            <div class="info-badges">
+              <span><i class="fa-solid fa-graduation-cap"></i> حاسبات ومعلومات</span>
+              <span><i class="fa-solid fa-folder-open"></i> +50 مشروع</span>
+              <span><i class="fa-solid fa-face-smile"></i> +35 عميل سعيد</span>
+            </div>
+
+            <div class="services-list">
+              <h4>ما أقدمه</h4>
+              <ul>
+                <li><i class="fa-solid fa-check"></i> تطوير تطبيقات ويب متكاملة بـ React & Next.js</li>
+                <li><i class="fa-solid fa-check"></i> تصميم واجهات مستخدم حديثة وجذابة</li>
+                <li><i class="fa-solid fa-check"></i> تحسين الأداء وسرعة التحميل</li>
+                <li><i class="fa-solid fa-check"></i> تطوير مواقع متوافقة مع جميع الأجهزة</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about-code-side">
+            <div class="code-window">
+              <div class="window-header">
+                <span class="circle red"></span>
+                <span class="circle yellow"></span>
+                <span class="circle green"></span>
+                <span class="file-name">ahmed.js</span>
+              </div>
+              <pre dir="ltr" class="code-body"><code><span class="comment">// من أنا باختصار</span>
+<span class="keyword">const</span> ahmed = {
+  <span class="prop">name</span>: <span class="str">"أحمد حسن"</span>,
+  <span class="prop">title</span>: <span class="str">"Frontend Developer"</span>,
+  <span class="prop">experience</span>: <span class="num">8</span> + <span class="str">" years"</span>,
+  <span class="prop">location</span>: <span class="str">"Cairo, Egypt 🇪🇬"</span>,
+  <span class="prop">skills</span>: [<span class="str">"React"</span>, <span class="str">"Next.js"</span>, <span class="str">"TypeScript"</span>, <span class="str">"Tailwind"</span>],
+  <span class="prop">available</span>: <span class="bool">true</span>,
+  <span class="prop">hireable</span>: <span class="bool">true</span>
+};
+
+<span class="keyword">export default</span> ahmed;</code></pre>
+            </div>
+
+            <div class="stats-row">
+              <div class="stat-box"><strong>50+</strong><span>مشروع</span></div>
+              <div class="stat-box"><strong>8+</strong><span>سنوات</span></div>
+              <div class="stat-box"><strong>35+</strong><span>عميل</span></div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. المهارات -->
+    <section id="skills" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">ما أتقنه</span>
+          <h2>المهارات و<span>التقنيات</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-top"><h3>React.js</h3><span>95%</span></div>
+            <div class="progress-bar"><div style="width: 95%"></div></div>
+            <p>خبرة متقدمة في بناء تطبيقات React معقدة</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><h3>Next.js</h3><span>90%</span></div>
+            <div class="progress-bar"><div style="width: 90%"></div></div>
+            <p>تطوير تطبيقات SSR وSSG متقدمة</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><h3>TypeScript</h3><span>88%</span></div>
+            <div class="progress-bar"><div style="width: 88%"></div></div>
+            <p>كتابة كود آمن ومنظم بشكل احترافي</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><h3>Tailwind CSS</h3><span>92%</span></div>
+            <div class="progress-bar"><div style="width: 92%"></div></div>
+            <p>تصميم واجهات حديثة بسرعة عالية</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><h3>Node.js</h3><span>80%</span></div>
+            <div class="progress-bar"><div style="width: 80%"></div></div>
+            <p>بناء APIs وخدمات الخلفية</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-top"><h3>Figma</h3><span>85%</span></div>
+            <div class="progress-bar"><div style="width: 85%"></div></div>
+            <p>تصميم واجهات احترافية ونماذج تفاعلية</p>
+          </div>
+        </div>
+
+        <div class="extra-tools">
+          <span><i class="fa-brands fa-html5"></i> HTML5</span>
+          <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+          <span><i class="fa-brands fa-js"></i> JavaScript</span>
+          <span><i class="fa-brands fa-git-alt"></i> Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. معرض الأعمال -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">أعمالي</span>
+          <h2>معرض <span>المشاريع</span></h2>
+        </div>
+
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">الكل</button>
+          <button class="filter-btn" data-filter="web">مواقع ويب</button>
+          <button class="filter-btn" data-filter="app">تطبيقات</button>
+          <button class="filter-btn" data-filter="ui">تصميم UI</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project-card" data-category="web">
+            <div class="project-thumb"><i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="project-body">
+              <span class="tag">موقع ويب</span>
+              <h3>منصة تجارة إلكترونية</h3>
+              <p>متجر إلكتروني متكامل مع سلة مشتريات وبوابة دفع ولوحة تحكم.</p>
+              <div class="project-links">
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> معاينة</a>
+                <a href="#"><i class="fa-brands fa-github"></i> الكود</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="app">
+            <div class="project-thumb"><i class="fa-solid fa-list-check"></i></div>
+            <div class="project-body">
+              <span class="tag">تطبيق</span>
+              <h3>تطبيق إدارة المهام والفرق</h3>
+              <p>لوحة تفاعلية لتنظيم المشاريع ومتابعة الإنتاجية لحظياً.</p>
+              <div class="project-links">
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> معاينة</a>
+                <a href="#"><i class="fa-brands fa-github"></i> الكود</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="ui">
+            <div class="project-thumb"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <div class="project-body">
+              <span class="tag">تصميم UI</span>
+              <h3>نظام تصميم لوحات تحكم</h3>
+              <p>مكتبة مكونات متجاوبة تدعم الوضع الليلي واللغة العربية.</p>
+              <div class="project-links">
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> معاينة</a>
+                <a href="#"><i class="fa-brands fa-github"></i> الكود</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. الخبرة -->
+    <section id="experience" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">مسيرتي</span>
+          <h2>الخبرة <span>العملية</span></h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="date">2022 - الآن</span>
+            <h3>Senior Frontend Developer</h3>
+            <p>قيادة تطوير تطبيقات الويب وتحسين الأداء وتجربة المستخدم باستخدام React و Next.js.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="date">2019 - 2022</span>
+            <h3>Frontend Developer</h3>
+            <p>بناء مواقع ومنصات تفاعلية متجاوبة للعملاء والشركات الناشئة.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. التوصيات -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">آراء العملاء</span>
+          <h2>ماذا يقول <span>العملاء</span></h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p>"التزام ممتاز بالمواعيد وجودة كود عالية جداً، الموقع طلع أسرع وأجمل من المتوقع."</p>
+            <strong>محمد محمود — مؤسس شركة تقنية</strong>
+          </div>
+          <div class="testimonial-card">
+            <p>"تعامل احترافي وفهم سريع لمتطلبات المشروع، أنصح بالتعامل معه في أي مشروع ويب."</p>
+            <strong>سارة علي — مديرة منتجات</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. تواصل معي -->
+    <section id="contact" class="section bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="subtitle">لنبدأ العمل</span>
+          <h2>تواصل <span>معي</span></h2>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <input type="text" id="name" placeholder="الاسم بالكامل" required />
+          <input type="email" id="email" placeholder="البريد الإلكتروني" required />
+          <textarea id="message" rows="5" placeholder="اكتب تفاصيل مشروعك هنا..." required></textarea>
+          <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 أحمد حسن — جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
